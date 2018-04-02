@@ -1,0 +1,13 @@
+body{
+	background: url("images/bg.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	color:#fff;
+}
+.inner-bg{
+	width:50%;
+	margin:100px auto;
+	background-color: rgba(0,0,0,0.5);
+	padding:10px;
+}
