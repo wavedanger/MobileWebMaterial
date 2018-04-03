@@ -1,0 +1,187 @@
+body{
+	background: url("images/bg.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.head-top{
+	background-color: #000;
+	padding:1em 0;
+}
+.navbar{
+	background-color: #fff;
+	border:none;
+	margin-bottom: 0px;
+}
+.nav{
+	margin-top: 5px;
+}
+.navbar-default{
+	padding: 1em 0;
+}
+.navbar-brand{
+	padding:0 0;
+}
+.navbar-brand>img{
+	height:auto;
+	width:auto;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus{
+	/*background-color: #000;*/
+	color:red;
+	/*border-radius:6px;*/
+}
+/*导航*/
+.nav-article{
+	position:fixed;
+	z-index:100;
+	top:110px;
+}
+.nav-article li{
+	color: #fff;;
+	padding: 0px;
+	background-color: rgba(254,223,177,0.2);
+	text-align: center;
+	border:1px solid #000;
+}
+.nav-article li.active a{
+	color:#000;
+	background-color: #fff;
+}
+.nav-article a:hover{
+	color:#000;
+}
+.nav-article li a{
+	color: #fff;
+	font-size:1.2em;
+}
+/* 一、文章标题*/
+.single h2 {
+ text-align: center;
+ font-size: 2em;
+ font-family: 'Ubuntu-Italic';
+ text-transform: capitalize;
+ color: #fff;
+}
+.single-section h4 {
+ font-size: 1.5em;
+color: #fff;
+ margin: 1em 0;
+ font-family: 'Ubuntu-Italic';
+}
+/*文章作者、时间、浏览次数*/
+ul.blog-ic {
+ margin: 1em 0;
+}
+ul.blog-ic li {
+ display: inline-block;
+}
+ul.blog-ic li a {
+ text-decoration: none;
+ color: #000;
+}
+ul.blog-ic li span {
+color: #fff;
+ padding: 0.4em 0.8em 0.2em 0;
+ display: block;
+ font-size: 1.1em;
+}
+ul.blog-ic li span i {
+ font-size: 15px;
+ color: #fff;
+ display: inline-block;
+ margin: 0 8px 0 0;
+}
+/*文章主体内容*/
+.single-section p {
+ color: #000;
+ line-height: 2em;
+ font-size: 1.2em;
+}
+.single img{
+	margin:0 auto;
+}
+/*二、反馈表单*/
+.content-form h3, .comments h3 {
+ font-size: 2em;
+ font-family: 'Ubuntu-Italic';
+ text-transform: capitalize;
+ color: #fff;
+ text-align: left;
+ margin-bottom: 0.5em;
+}
+.content-form form input[type="text"], .content-form form textarea {
+ padding: 10px 15px;
+ width: 60%;
+ color: #000;
+ font-size: 1em;
+ border: 1px solid #000;
+ background: transparent;
+ outline: none;
+ font-family: 'Lato', sans-serif;
+ display: block;
+ margin: 10px 0;
+}
+.content-form form input[type="submit"] {
+ background:#000;
+ padding: 0.5em 1.3em;
+ border: none;
+ font-size: 1em;
+ margin-bottom: 1em;
+ color: #fff;
+ outline: none;
+ font-weight: 400;
+ transition: 0.5s all;
+}
+/*三、评论*/
+.comment-info p,h6{
+	color:#000;
+}
+.comment-info h5 {
+ font-size: 1.3em;
+ color: #fff;
+ text-transform: capitalize;
+}
+.comment-info a {
+color:#fff;
+ background: transparent;
+ padding: 0.5em 1.5em;
+ text-decoration: none;
+ font-size: 0.85em;
+ display: inline-block;
+ border: 1px solid #000;
+transition: 0.5s all;
+}
+a:active, a:hover {
+ outline: 0;
+}
+.comment-info a:hover {
+ color: #fff;
+ background: #000;
+ border: 1px solid #222;
+}
+a:hover, a:focus {
+ color: #E74C3C;
+ text-decoration: underline;
+}
+.footer{
+	color:#fff;
+	background-color: #000;
+	height:50px;
+	line-height: 50px;
+}
+.footer-left{
+	float:left;
+}
+.footer-right{
+	float:right;
+}
+.glyphicon{
+	/*font-size:1.2em;*/
+	padding-right:5px;
+}

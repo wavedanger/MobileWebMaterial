@@ -1,13 +1,20 @@
 body{
 	background-color: #fff;
 }
+.clear{
+	clear:both;
+}
 .phoneimg{
 	border:1px solid red;
 	padding:1%;
+	/*height:500px;*/
 }
 .ollist{
 	list-style-type:none;
+	margin:0;
 	margin-top:2%;
+	float:left;
+	width:100%;
 }
 .ollist li{
 	float:left;
