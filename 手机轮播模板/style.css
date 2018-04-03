@@ -1,0 +1,22 @@
+body{
+	background-color: #fff;
+}
+.phoneimg{
+	border:1px solid red;
+	padding:1%;
+}
+.ollist{
+	list-style-type:none;
+	margin-top:2%;
+}
+.ollist li{
+	float:left;
+	margin-right:1%;
+	border:1px solid white;
+}
+.ollist li:hover{
+	border:1px solid red;
+}
+.ollist li.active{
+	border:1px solid red;
+}
