@@ -1,5 +1,5 @@
 body{
-	background: url("images/bg.jpg");
+	/background: url("images/bg.jpg");
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
@@ -43,7 +43,7 @@ body{
 	top:110px;
 }
 .nav-article li{
-	color: #fff;;
+	color:#000;
 	padding: 0px;
 	background-color: rgba(254,223,177,0.2);
 	text-align: center;
@@ -57,7 +57,7 @@ body{
 	color:#000;
 }
 .nav-article li a{
-	color: #fff;
+	color:rgba(0,0,0,0.4);
 	font-size:1.2em;
 }
 /* 一、文章标题*/
@@ -66,11 +66,11 @@ body{
  font-size: 2em;
  font-family: 'Ubuntu-Italic';
  text-transform: capitalize;
- color: #fff;
+ color: #000;
 }
 .single-section h4 {
  font-size: 1.5em;
-color: #fff;
+color: #000;
  margin: 1em 0;
  font-family: 'Ubuntu-Italic';
 }
@@ -86,7 +86,7 @@ ul.blog-ic li a {
  color: #000;
 }
 ul.blog-ic li span {
-color: #fff;
+color: #000;
  padding: 0.4em 0.8em 0.2em 0;
  display: block;
  font-size: 1.1em;
@@ -111,7 +111,7 @@ ul.blog-ic li span i {
  font-size: 2em;
  font-family: 'Ubuntu-Italic';
  text-transform: capitalize;
- color: #fff;
+ color: #000;
  text-align: left;
  margin-bottom: 0.5em;
 }
@@ -144,11 +144,11 @@ ul.blog-ic li span i {
 }
 .comment-info h5 {
  font-size: 1.3em;
- color: #fff;
+ color:rgba(13,62,249,0.76);
  text-transform: capitalize;
 }
 .comment-info a {
-color:#fff;
+color:(0,0,0,0.3);
  background: transparent;
  padding: 0.5em 1.5em;
  text-decoration: none;
