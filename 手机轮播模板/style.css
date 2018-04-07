@@ -50,12 +50,10 @@ background-image: none;
 {
 	font-size:12px;
 	color:#666;
-	margin-right:5px;
 	}
 #price
 {
-	margin-top:10px;
-	margin-bottom: 10px;
+	margin:10px;
 	padding:20px;
 	}
 #price2
@@ -68,9 +66,6 @@ background-image: none;
 {
 	margin-bottom:12px;
 	}
-.chioce{
-	margin-bottom:5px;
-}
 a.jjtz
 {
 	color:#666;
