@@ -1,4 +1,55 @@
+
+#logo{
+	
+    width: 100%;  
+    height: 65px;   
+    background: #FFF;    
+	position:absolute;
+	top: 0; 
+}
+
+#logo1{
+    width: 100%;  
+    height: 65px;   
+    background: #FFF; 
+	position:absolute;
+	bottom:0; 
+}
+
+
+#tu{
+    margin-left:24%;
+		
+}
+
+#tu1{
+    margin-left:30%;
+		
+}
+
+#logo11
+{
+    margin-left:40.5%;	
+}
+
+#qq1
+{
+    margin-left:6%;	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
 body{
+	margin:10px auto ;
 	background: url("images/bg.jpg");
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -6,8 +57,9 @@ body{
 	color:#fff;
 }
 .inner-bg{
-	width:50%;
-	margin:100px auto;
+	width:35%;
+	margin:50px auto ;
+	margin-top:200px;
 	background-color: rgba(0,0,0,0.5);
 	padding:10px;
 }
