@@ -1,40 +1,3 @@
-#logo{
-    width: 100%;  
-    height: 65px;   
-    background: #FFF;    
-}
-
-#logo1{
-    width: 100%;  
-    height: 65px;   
-    background: #FFF; 
-	position:absolute;
-	bottom:0; 
-}
-
-
-#tu{
-    margin-left:24%;
-		
-}
-
-#tu1{
-    margin-left:30%;
-		
-}
-
-#logo11
-{
-    margin-left:40.5%;	
-}
-
-#qq1
-{
-    margin-left:6%;	
-	
-}
-
-
 body{
 	            background-image: url("images/bg.jpg");
 				-webkit-background-size: cover;
@@ -58,7 +21,7 @@ body h1{
 	margin-top:2em;
 }
 .inner-bg{
-	width:36%;
+	width:50%;
 	margin:100px auto;
 	background-color: rgba(0,0,0,0.5);
 	padding:10px;
