@@ -48,12 +48,17 @@ background-image: none;
 /*行头*/
 #head
 {
+	margin-right:5px;
 	font-size:12px;
 	color:#666;
 	}
+.chioce{
+	margin-bottom:5px;
+}
 #price
 {
-	margin:10px;
+	margin-top:10px;
+	margin-bottom: 10px;
 	padding:20px;
 	}
 #price2
