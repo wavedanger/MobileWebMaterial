@@ -1,0 +1,4 @@
+<div class="row">
+			<div class="copyright col-sm-6 col-sm-offset-4">
+			<p><a href="https://github.com/wavedanger/MobileWebMaterial">联系我们&nbsp;</a>&copy;软1.net开发团队</p>
+		</div>
