@@ -106,3 +106,48 @@ a.jjtz:hover
 {
 	margin-top:30px;
 	}
+	
+	.head-top{
+	background-color: #000;
+	padding:1em 0;
+}
+.navbar{
+	background-color: #fff;
+	border:none;
+	margin-bottom: 0px;
+}
+.nav{
+	margin-top: 5px;
+}
+.navbar-default{
+	padding: 1em 0;
+}
+.navbar-brand{
+	padding:0 0;
+}
+.navbar-brand>img{
+	height:auto;
+	width:auto;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus{
+	/*background-color: #000;*/
+	color:red;
+	/*border-radius:6px;*/
+}
+.footer{
+	color:#fff;
+	background-color: #000;
+	height:50px;
+	line-height: 50px;
+}
+.footer-left{
+	float:left;
+}
+.footer-right{
+	float:right;
+}
