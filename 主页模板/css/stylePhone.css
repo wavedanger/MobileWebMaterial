@@ -2,6 +2,7 @@
 	background-color: #000;
 	padding:1em 0;
 }
+
 .navbar{
 	background-color: #fff;
 	border:none;
@@ -27,9 +28,10 @@
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus{
 	/*background-color: #000;*/
-	color:red;
+	color:#ccc;
 	/*border-radius:6px;*/
 }
+
 .carousel{
 	background-color: #fff;
 	margin-bottom: 30px;
