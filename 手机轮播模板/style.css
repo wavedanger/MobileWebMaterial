@@ -199,6 +199,23 @@ a.jjtz:hover
 	color:red;
 	/*border-radius:6px;*/
 }
+.hnav{
+	width:100%;
+	background-color: #efe;
+	border-bottom:1px solid #efe;
+}
+.hnav li:hover a{
+	background-color: #fff;
+}
+.waiju{
+	margin-top:2em;
+}
+.neiju{
+	padding:20px;
+}
+.panel-body a{
+	margin:5px;
+}
 .footer{
 	color:#fff;
 	background-color: #000;
@@ -215,3 +232,4 @@ a.jjtz:hover
 	/*font-size:1.2em;*/
 	padding-right:5px;
 }
+
